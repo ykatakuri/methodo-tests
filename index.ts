@@ -1,5 +1,5 @@
-import { testAGreaterThanB, testBGreaterThanA, testEqualsParams } from './src/test/pgcd.test';
+// import { testAGreaterThanB, testBGreaterThanA, testEqualsParams } from './src/test/pgcd.test';
 
-testEqualsParams(1, 1);
-testAGreaterThanB(2, 1);
-testBGreaterThanA(1, 2);
+// testEqualsParams(1, 1);
+// testAGreaterThanB(2, 1);
+// testBGreaterThanA(1, 2);

@@ -1,23 +1,14 @@
+import { expect, test } from 'vitest';
 import { pgcd } from '../pgcd';
 
-export function testEqualsParams(a: number, b: number) {
-    let expected = 1;
+test('1 and 1 are equals', () => {
+    expect(pgcd(1, 1)).toBe(1)
+});
 
-    let result = pgcd(a, b);
+test('2 and 1 is 1', () => {
+    expect(pgcd(2, 1)).toBe(1)
+});
 
-    if (result === expected) {
-        console.log(`${a} and ${b} are equal`);
-    }
-}
-
-export function testAGreaterThanB(a: number, b: number) {
-    let expected = 1;
-    let result = pgcd(a, b);
-    console.log(`pgcd(${a}, ${b}) = ${result}`);
-}
-
-export function testBGreaterThanA(a: number, b: number) {
-    let expected = 1;
-    let result = pgcd(a, b);
-    console.log(`pgcd(${a}, ${b}) = ${result}`);
-}
+test('1 and 2 is 1', () => {
+    expect(pgcd(1, 2)).toBe(1)
+});

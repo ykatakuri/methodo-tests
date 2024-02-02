@@ -1,0 +1,19 @@
+{
+  "name": "ee",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "vitest": "^1.2.2"
+  },
+  "scripts": {
+    "start": "nodemon index.ts",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "typescript": "^5.3.3"
+  }
+}
